@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h3{
+    color: #6e0066;
+}
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+select{
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+button{
+    padding: 14px 20px;
+    margin: 8px 0;
+    background-color: #bc02b0;
+    border: none;
+    border-radius:2px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myResponce{
+    margin: 25px 0 0 0;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffe5fd;
+    
+}
+#errorDiv{
+    margin: 15px 0 0 0;
+    color: #6e0066;
+    font-family: 'Courier New', Courier, monospace;
+}
